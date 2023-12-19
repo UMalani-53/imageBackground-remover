@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#originalImg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: red; /* Change color as needed */
+    pointer-events: none;
+}
